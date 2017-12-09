@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4F109E1FDC69FA009F156A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F109D1FDC69FA009F156A /* AppDelegate.swift */; };
+		CD4F10A01FDC69FA009F156A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F109F1FDC69FA009F156A /* ViewController.swift */; };
+		CD4F10A31FDC69FA009F156A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4F10A11FDC69FA009F156A /* Main.storyboard */; };
+		CD4F10A51FDC69FA009F156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4F10A41FDC69FA009F156A /* Assets.xcassets */; };
+		CD4F10A81FDC69FA009F156A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4F10A61FDC69FA009F156A /* LaunchScreen.storyboard */; };
+		CD4F10B31FDC69FA009F156A /* Valuta_OmrekenenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F10B21FDC69FA009F156A /* Valuta_OmrekenenTests.swift */; };
+		CD4F10BE1FDC69FA009F156A /* Valuta_OmrekenenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F10BD1FDC69FA009F156A /* Valuta_OmrekenenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4F10AF1FDC69FA009F156A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4F10921FDC69FA009F156A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4F10991FDC69FA009F156A;
+			remoteInfo = "Valuta Omrekenen";
+		};
+		CD4F10BA1FDC69FA009F156A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4F10921FDC69FA009F156A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4F10991FDC69FA009F156A;
+			remoteInfo = "Valuta Omrekenen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4F109A1FDC69FA009F156A /* Valuta Omrekenen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valuta Omrekenen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4F109D1FDC69FA009F156A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD4F109F1FDC69FA009F156A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4F10A21FDC69FA009F156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4F10A41FDC69FA009F156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4F10A71FDC69FA009F156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4F10A91FDC69FA009F156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4F10AE1FDC69FA009F156A /* Valuta OmrekenenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valuta OmrekenenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4F10B21FDC69FA009F156A /* Valuta_OmrekenenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valuta_OmrekenenTests.swift; sourceTree = "<group>"; };
+		CD4F10B41FDC69FA009F156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4F10B91FDC69FA009F156A /* Valuta OmrekenenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valuta OmrekenenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4F10BD1FDC69FA009F156A /* Valuta_OmrekenenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valuta_OmrekenenUITests.swift; sourceTree = "<group>"; };
+		CD4F10BF1FDC69FA009F156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4F10971FDC69FA009F156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F10AB1FDC69FA009F156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F10B61FDC69FA009F156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4F10911FDC69FA009F156A = {
+			isa = PBXGroup;
+			children = (
+				CD4F109C1FDC69FA009F156A /* Valuta Omrekenen */,
+				CD4F10B11FDC69FA009F156A /* Valuta OmrekenenTests */,
+				CD4F10BC1FDC69FA009F156A /* Valuta OmrekenenUITests */,
+				CD4F109B1FDC69FA009F156A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4F109B1FDC69FA009F156A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F109A1FDC69FA009F156A /* Valuta Omrekenen.app */,
+				CD4F10AE1FDC69FA009F156A /* Valuta OmrekenenTests.xctest */,
+				CD4F10B91FDC69FA009F156A /* Valuta OmrekenenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4F109C1FDC69FA009F156A /* Valuta Omrekenen */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F109D1FDC69FA009F156A /* AppDelegate.swift */,
+				CD4F109F1FDC69FA009F156A /* ViewController.swift */,
+				CD4F10A11FDC69FA009F156A /* Main.storyboard */,
+				CD4F10A41FDC69FA009F156A /* Assets.xcassets */,
+				CD4F10A61FDC69FA009F156A /* LaunchScreen.storyboard */,
+				CD4F10A91FDC69FA009F156A /* Info.plist */,
+			);
+			path = "Valuta Omrekenen";
+			sourceTree = "<group>";
+		};
+		CD4F10B11FDC69FA009F156A /* Valuta OmrekenenTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F10B21FDC69FA009F156A /* Valuta_OmrekenenTests.swift */,
+				CD4F10B41FDC69FA009F156A /* Info.plist */,
+			);
+			path = "Valuta OmrekenenTests";
+			sourceTree = "<group>";
+		};
+		CD4F10BC1FDC69FA009F156A /* Valuta OmrekenenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F10BD1FDC69FA009F156A /* Valuta_OmrekenenUITests.swift */,
+				CD4F10BF1FDC69FA009F156A /* Info.plist */,
+			);
+			path = "Valuta OmrekenenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4F10991FDC69FA009F156A /* Valuta Omrekenen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4F10C21FDC69FA009F156A /* Build configuration list for PBXNativeTarget "Valuta Omrekenen" */;
+			buildPhases = (
+				CD4F10961FDC69FA009F156A /* Sources */,
+				CD4F10971FDC69FA009F156A /* Frameworks */,
+				CD4F10981FDC69FA009F156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valuta Omrekenen";
+			productName = "Valuta Omrekenen";
+			productReference = CD4F109A1FDC69FA009F156A /* Valuta Omrekenen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4F10AD1FDC69FA009F156A /* Valuta OmrekenenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4F10C51FDC69FA009F156A /* Build configuration list for PBXNativeTarget "Valuta OmrekenenTests" */;
+			buildPhases = (
+				CD4F10AA1FDC69FA009F156A /* Sources */,
+				CD4F10AB1FDC69FA009F156A /* Frameworks */,
+				CD4F10AC1FDC69FA009F156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4F10B01FDC69FA009F156A /* PBXTargetDependency */,
+			);
+			name = "Valuta OmrekenenTests";
+			productName = "Valuta OmrekenenTests";
+			productReference = CD4F10AE1FDC69FA009F156A /* Valuta OmrekenenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD4F10B81FDC69FA009F156A /* Valuta OmrekenenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4F10C81FDC69FA009F156A /* Build configuration list for PBXNativeTarget "Valuta OmrekenenUITests" */;
+			buildPhases = (
+				CD4F10B51FDC69FA009F156A /* Sources */,
+				CD4F10B61FDC69FA009F156A /* Frameworks */,
+				CD4F10B71FDC69FA009F156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4F10BB1FDC69FA009F156A /* PBXTargetDependency */,
+			);
+			name = "Valuta OmrekenenUITests";
+			productName = "Valuta OmrekenenUITests";
+			productReference = CD4F10B91FDC69FA009F156A /* Valuta OmrekenenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4F10921FDC69FA009F156A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = FloBra;
+				TargetAttributes = {
+					CD4F10991FDC69FA009F156A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD4F10AD1FDC69FA009F156A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD4F10991FDC69FA009F156A;
+					};
+					CD4F10B81FDC69FA009F156A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD4F10991FDC69FA009F156A;
+					};
+				};
+			};
+			buildConfigurationList = CD4F10951FDC69FA009F156A /* Build configuration list for PBXProject "Valuta Omrekenen" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4F10911FDC69FA009F156A;
+			productRefGroup = CD4F109B1FDC69FA009F156A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4F10991FDC69FA009F156A /* Valuta Omrekenen */,
+				CD4F10AD1FDC69FA009F156A /* Valuta OmrekenenTests */,
+				CD4F10B81FDC69FA009F156A /* Valuta OmrekenenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4F10981FDC69FA009F156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F10A81FDC69FA009F156A /* LaunchScreen.storyboard in Resources */,
+				CD4F10A51FDC69FA009F156A /* Assets.xcassets in Resources */,
+				CD4F10A31FDC69FA009F156A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F10AC1FDC69FA009F156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F10B71FDC69FA009F156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4F10961FDC69FA009F156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F10A01FDC69FA009F156A /* ViewController.swift in Sources */,
+				CD4F109E1FDC69FA009F156A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F10AA1FDC69FA009F156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F10B31FDC69FA009F156A /* Valuta_OmrekenenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F10B51FDC69FA009F156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4F10BE1FDC69FA009F156A /* Valuta_OmrekenenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4F10B01FDC69FA009F156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4F10991FDC69FA009F156A /* Valuta Omrekenen */;
+			targetProxy = CD4F10AF1FDC69FA009F156A /* PBXContainerItemProxy */;
+		};
+		CD4F10BB1FDC69FA009F156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4F10991FDC69FA009F156A /* Valuta Omrekenen */;
+			targetProxy = CD4F10BA1FDC69FA009F156A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4F10A11FDC69FA009F156A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4F10A21FDC69FA009F156A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4F10A61FDC69FA009F156A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4F10A71FDC69FA009F156A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4F10C01FDC69FA009F156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD4F10C11FDC69FA009F156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4F10C31FDC69FA009F156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3EE5VEFDK;
+				INFOPLIST_FILE = "Valuta Omrekenen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.Valuta-Omrekenen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4F10C41FDC69FA009F156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3EE5VEFDK;
+				INFOPLIST_FILE = "Valuta Omrekenen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.Valuta-Omrekenen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD4F10C61FDC69FA009F156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3EE5VEFDK;
+				INFOPLIST_FILE = "Valuta OmrekenenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.Valuta-OmrekenenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valuta Omrekenen.app/Valuta Omrekenen";
+			};
+			name = Debug;
+		};
+		CD4F10C71FDC69FA009F156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3EE5VEFDK;
+				INFOPLIST_FILE = "Valuta OmrekenenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.Valuta-OmrekenenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valuta Omrekenen.app/Valuta Omrekenen";
+			};
+			name = Release;
+		};
+		CD4F10C91FDC69FA009F156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3EE5VEFDK;
+				INFOPLIST_FILE = "Valuta OmrekenenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.Valuta-OmrekenenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Valuta Omrekenen";
+			};
+			name = Debug;
+		};
+		CD4F10CA1FDC69FA009F156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3EE5VEFDK;
+				INFOPLIST_FILE = "Valuta OmrekenenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.Valuta-OmrekenenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Valuta Omrekenen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4F10951FDC69FA009F156A /* Build configuration list for PBXProject "Valuta Omrekenen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4F10C01FDC69FA009F156A /* Debug */,
+				CD4F10C11FDC69FA009F156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4F10C21FDC69FA009F156A /* Build configuration list for PBXNativeTarget "Valuta Omrekenen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4F10C31FDC69FA009F156A /* Debug */,
+				CD4F10C41FDC69FA009F156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4F10C51FDC69FA009F156A /* Build configuration list for PBXNativeTarget "Valuta OmrekenenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4F10C61FDC69FA009F156A /* Debug */,
+				CD4F10C71FDC69FA009F156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4F10C81FDC69FA009F156A /* Build configuration list for PBXNativeTarget "Valuta OmrekenenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4F10C91FDC69FA009F156A /* Debug */,
+				CD4F10CA1FDC69FA009F156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4F10921FDC69FA009F156A /* Project object */;
+}
