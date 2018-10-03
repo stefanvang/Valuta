@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "EURO"; ObjectID = "Akb-5m-TCi"; */
+"Akb-5m-TCi.text" = "EURO";
+
+/* Class = "UILabel"; text = "Date van currency"; ObjectID = "EtM-U5-six"; */
+"EtM-U5-six.text" = "Date van currency";
+
+/* Class = "UILabel"; text = "Valuta omrekenen"; ObjectID = "LxN-CM-8UQ"; */
+"LxN-CM-8UQ.text" = "Valuta omrekenen";
+
+/* Class = "UILabel"; text = "Source rates: fixer.io (ECB)"; ObjectID = "QMV-jc-v3j"; */
+"QMV-jc-v3j.text" = "Source rates: fixer.io (ECB)";
+
+/* Class = "UILabel"; text = "<-- rate -->"; ObjectID = "YdE-BE-GpO"; */
+"YdE-BE-GpO.text" = "<-- rate -->";
+
+/* Class = "UITextField"; placeholder = "Currency"; ObjectID = "fdS-zA-1vA"; */
+"fdS-zA-1vA.placeholder" = "Currency";
+
+/* Class = "UILabel"; text = "Currency"; ObjectID = "o1c-sW-qbF"; */
+"o1c-sW-qbF.text" = "Currency";
+
+/* Class = "UITextField"; placeholder = "EURO"; ObjectID = "t1a-BW-JBj"; */
+"t1a-BW-JBj.placeholder" = "EURO";
